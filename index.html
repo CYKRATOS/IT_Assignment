@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+*{margin: 0;padding: 0;font-family: 'Lobster', cursive !important;}
+body{height: 270vh;}
+html{scroll-behavior:smooth;}
+
+center{margin-top: 5px;}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image:url(./assets/84770f_1d1bf8054e52425285cf7792b479182f~mv2_d_1920_1409_s_2.jpg) ;
+    background-size: cover;
+    background-position: center;    
+    background-attachment: fixed;
+}
+
+body > div.container > nav > div > ul > li > a:hover{
+    background-color: rgb(89, 89, 231);
+    border-radius: 20px;
+    transition: .3s;
+    color:#fff;
+    padding: 0px 10px 0px 10px;
+}
+
+.third{
+    height: 100vh;
+    width: 100%;
+    background-image:url(./assets/dogcat.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-size: 55px;
+}
+
+.box3{
+    position: relative;
+    top: 130px;
+    display: grid;
+    grid-template-areas:
+    'header box4 main box5'
+    'footer box1 box2 box3';
+}
+body > div.third > div > div{color: whitesmoke;}
+.second{
+    height: 100vh;
+    width: 100%;
+    /* background-image:url(./assets/dog2.jpg) ; */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-size: 55px;
+}
+
+#box2{
+    position: relative;
+    top: 130px;
+    text-align: center;
+    color: tomato;
+}
+#box2 > ul{display: flex;justify-content: space-between;list-style-type: none;margin: 0px 350px 0px 350px;}
+.img{
+    position: relative;
+    top: 165px;
+    display: flex;
+    margin: 0px 147px 0px 174px;
+}
+body > div.second > div.img > img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.first{
+    position: relative;
+    top: 150px;
+    font-size: 45px;
+    display: grid;
+    place-items: center;   
+}
+
+body > div.container > div > h2{
+    color: hsl(177, 46%, 65%);
+    background-color: #000;
+    border-radius: 30px;
+    padding:0% 2% 0% 2%;
+}
+body > div.container > div > h2:nth-child(2){
+    margin-top: 75px;
+}
+
+.dead{
+    height: 15%;
+    width: 100%;
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.6);
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body > div > nav > a{
+    margin-left: 50px;
+}
+
+nav a{
+    color: black;
+    font-size: 50px;
+    text-decoration: none;
+}
+ 
+.nav-links ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-links ul li a{
+    margin-right: 45px;
+    font-size: 30px;
+}
+
+section{
+    background-color: tomato;
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    margin: 50px;
+    font-size: x-large;
+}
+.bild{font-weight: bolder;}
+.lin{line-height:60px;}
+.poo{flex: 0.6;}
+.oop{flex: 1.4;}
+
+body > section > div:nth-child(4) > ul > li > a{
+    color: #000; text-decoration: none;
+}
+
+.down{
+    display: grid;
+    place-items: left;
+    padding: 0% 3% 3% 3%;
+    font-size: x-large;
+}
+</style>
+    <meta charset='utf-8'>
+    <title>Pet Store</title>
+    <link rel="website icon" type="png" href="./assets/cat-removebg-preview.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>    
+<div class="container">
+    <nav class="dead">
+        <a href="./index.html">C Y <img src="./assets/cat-removebg-preview.png" height="40"> </a>
+         <div class="nav-links">
+             <ul style="list-style-type:none">
+                 <li><a href="#" target="_self">Home.</a></li>
+                 <li><a href="./gallery.html" target="_blank">Gallery.</a></li>
+                 <li><a href="./dis.html" target="_blank">Description.</a></li>
+                 <li><a href="./contat.html" target="_blank">Contact.</a></li>     
+             </ul>
+         </div>
+    </nav> 
+
+    <div class="first">
+    <h2>PONTO PET</h2> 
+    <h2 style="font-size: 55px;" >Where furry friends find forever homes 🏡🐾</h2>
+    <h2 style="margin-top: 20px;font-size: 45px;" >Welcome to Our Pet Supply Shop</h2>
+    <h2 style="font-size: 40px;margin: 6%;margin-top: 20px;" >Your one-stop destination for pets of all kinds and expert grooming services.<center> Welcome to PONTO PET.</center></h2>
+    </div>
+
+</div> 
+
+<div class="second">
+<div id="box2" >
+    <p style="font-size: 65px;margin: 0px 350px 0px 350px;font-weight: bold;">Your pet deserves to be pampered!</p>
+    <ul style="margin-top: 25px;font-size:22px;margin-bottom: 20px" >
+        <li><img src="./assets/shampoo.png"height="25px">Bath or Shower</li>
+        <li><img src="./assets/paw-print.png"height="25px">Hands-On Pet Assessment </li>
+        <li><img src="./assets/hair-dryer.png"height="25px">Safe Drying</li>
+    </ul>
+    <p style="font-size:22px;background-color:tomato;color: white;border-radius: 30px;display: inline;padding: 1%;cursor: pointer;" >Book an Appointment</p>
+</div>
+    <div class="img">
+        <img style="margin-right: 15px;border-radius: 10px" src="./assets/wash3.png"height="160px">
+        <img style="margin-right: 15px;border-radius: 10px" src="./assets/wash2.jpg"height="160px">
+        <img style="margin-right: 15px;border-radius: 10px" src="./assets/wash4.png"height="160px">
+        <img style="margin-right: 15px;border-radius: 10px" src="./assets/wash1.png"height="160px">
+    </div>
+</div>  
+
+<div class="third">
+  <div class="box3">
+    <div style="height: 265px;" class="item1"><img src="./assets/hil1.jpg"height="265px"width="345"></div>
+
+    <div style="font-size: 35px;background-color: darkolivegreen;height: 185px;padding: 80px 92px 0px 30px;" class="item2">OUR HAPPY CUSTOMERS</div>
+
+    <div style="height: 265px;" class="item3"><img src="./assets/hil2.jpg"height="265px"width="345"></div>  
+
+    <div style="font-size: 38px;padding: 30px;background-color: slateblue;height: 230px;padding: 35px 140px 0px 30px;" class="item4">JOHNY 2 yr old Golden Retriever</div>
+
+    <div style="font-size: 35px;padding: 30px;background-color:goldenrod;height: 225px;padding: 40px 190px 0px 30px;" class="item5">PACO 6 yr old Boykin Spaniel</div>
+
+    <div style="height: 265px;" class="item6"><img src="./assets/hil3.jpg"height="265px"width="345"></div>
+
+    <div style="font-size: 35px;padding: 30px;background-color: orange;height: 225px;padding: 40px 90px 0px 30px;" class="item7">MIKA & MILO 4 yr old Cockapoo 6 yr old Labrador</div>
+
+    <div style="height: 265px;" class="item8"><img src="./assets/hil4.jpg"height="265px"width="345"></div>
+  </div>
+</div>
+
+<section>
+    <div class="poo">
+        <p class="bild">ADDRESS</p><br>
+        <p>500 Terry Francine St. San Francisco, CA 94158</p>
+    </div>
+    <div class="poo">
+        <p class="bild">SHOP</p><br>
+        <p>DOGS</p>
+        <p>CATS</p>
+        <p>BIRDS</p>
+        <p>FISH & AQUATICS</p>
+        <p>SMALL ANIMALS</p>
+        <p>REPTILES</p>
+    </div>
+    <div class="oop">
+        <p class="bild">GET SPECIAL DEALS & OFFERS</p><br>
+        <input style="font-size: 20px;padding: 2%;" type="email" class="email" placeholder="Email">
+        <input style="font-size: 20px;padding: 2%;background-color: #000;color: #fff;" class="bild" type="submit" value="SUBMIT" class="submit-button">
+    </div>
+    <div class="poo">
+        <p style="margin-bottom: -6px;" class="bild">CONTACT US!</p><br>
+        <ul class="bild lin" style="list-style-type: none;">
+            <li style="font-size: 50px;" ><a href="https://www.instagram.com/chandu_spidey/"target="_self"><i class='bx bxl-instagram'></i></a></li>
+            <li style="font-size: 50px;" ><a href="https://www.facebook.com/lakshmi.srinivas.3304673/"target="_self"><i class='bx bxl-facebook'></i></a></li>
+            <li style="font-size: 50px;" ><a href="https://twitter.com/ChandanYad19171"target="_self"><i class='bx bxl-twitter'></i></a></li>
+        </ul>
+    </div>
+</section>
+
+<footer class="down">    
+   <a style="text-decoration: none;color: #000;"  href="#"> <p>&copy; 2035 Copyrights Reserved by CY</p> </a>    
+</footer>
+</body>
+</html>

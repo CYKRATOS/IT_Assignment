@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+*{margin: 0%;padding: 0;font-family: 'Lobster', cursive !important;}    
+html{scroll-behavior: smooth;}  
+body{background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);}
+
+#tnof{font-size: 60px;margin-left: 25px;}
+#upp{text-align: center;font-size: x-large;}
+.container{
+    display: grid;
+    grid-template-rows: 450px 450px 400px;
+    grid-template-columns: 400px 500px 200px;
+    gap: 50px;
+    padding: 0px 82px 50px 99px;
+    color: #fff;
+}
+.item5{grid-column: span 2;}
+.item6{grid-column: span 2;}
+
+body > div > div{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+body > div > div.item1{
+background-image: url(./assets/list1.png);
+color: #000;
+}
+body > div > div.item2{
+background-image: url(./assets/list2.png);
+}
+body > div > div.item3{
+background-image: url(./assets/list3.png);
+}
+body > div > div.item4{
+background-image: url(./assets/list4.png);
+}
+body > div > div.item5{
+background-image: url(./assets/list5.png);
+}
+body > div > div.item6{
+background-image: url(./assets/list6.png);
+}
+body > div > div.item7{
+background-image: url(./assets/list7.png);
+}
+
+.fcon{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 50px 30px 50px;
+}
+#btn{
+  font-size: 15px;
+  padding: 2%;
+  background-color: #000;
+  color: #fff;
+}
+
+section{
+    background-color: #ff4c68;
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    margin: 50px;
+    font-size: x-large;
+}
+.bild{font-weight: bolder;}
+.lin{line-height:60px;}
+.poo{flex: 0.6;}
+.oop{flex: 1.4;}
+
+body > section > div:nth-child(4) > ul > li > a{
+    color: #000; text-decoration: none;
+}
+
+.down{
+    display: grid;
+    place-items: left;
+    padding: 0% 3% 3% 3%;
+    font-size: x-large;
+}
+    </style>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Pet Store</title>
+    <link rel="website icon" type="png" href="./assets/cat-removebg-preview.png">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+
+<h1 style="text-align: center;color: black; margin:3% 0% 2% 0%;font-size: 45px;">OUR SERVICES</h1>
+
+<div class="container"> 
+  <div class="item1"><p id="tnof" style="text-align: center;padding:70px 120px 0px 70px;">DEAL OF THE WEEK</p><br><hr><p style="font-size: x-large;text-align: center;padding-right: 120px;">50% OFF</p><p style="text-align: center;padding-right: 90px;font-size: x-large;">on dog treats</p><input style="background-color: tomato;margin: 0px 184px 0px 94px;text-align: center;padding: 8px;border-radius: 10px;font-size: 16px;" class="bild" type="submit" value="Shop Now"></div>
+  <div class="item2"><br><br><br><br><br><br><br><br><br><br><br><p id="tnof">Dogs</p><input style="background-color: tomato;margin: 0px 0px 0px 25px;text-align: center;padding: 8px;border-radius: 10px;font-size: 16px;" class="bild" type="submit" value="Shop Now"></div>
+  <div class="item3"><br><br><br><br><br><br><br><br><br><br><br><p id="tnof">Cats</p><input style="background-color: tomato;margin: 0px 0px 0px 25px;text-align: center;padding: 8px;border-radius: 10px;font-size: 16px;" class="bild" type="submit" value="Shop Now"></div>  
+  <div class="item4"><br><br><br><br><br><br><br><br><br><br><br><p id="tnof">Birds</p><input style="background-color: tomato;margin: 0px 0px 0px 25px;text-align: center;padding: 8px;border-radius: 10px;font-size: 16px;" class="bild" type="submit" value="Shop Now"></div>
+  <div class="item5"><br><br><br><br><br><br><br><br><br><br><br><p id="tnof">Fish</p><input style="background-color: tomato;margin: 0px 0px 0px 25px;text-align: center;padding: 8px;border-radius: 10px;font-size: 16px;" class="bild" type="submit" value="Shop Now"></div>
+  <div class="item6"><br><br><br><br><br><br><br><br><br><br><br><p id="tnof">Small Animals</p><input style="background-color: tomato;margin: 0px 0px 0px 25px;text-align: center;padding: 8px;border-radius: 10px;font-size: 16px;" class="bild" type="submit" value="Shop Now"></div>
+  <div class="item7"><br><br><br><br><br><br><br><br><br><br><br><p style="margin-left: 12px;font-size: 60px;">Reptiles</p><input style="background-color: tomato;margin: 0px 0px 0px 12px;text-align: center;padding: 8px;border-radius: 10px;font-size: 16px;" class="bild" type="submit" value="Shop Now"></div>
+</div>
+<br>
+<hr>
+<center><p style="font-size: 55px;color: black;">Our Pet's Choice</p></center>
+<div class="fcon">
+  <div id="upp"><img src="./assets/shop1.png"height="200"><p>Dogs Toys</p><p>$7.00</p><input id="btn" type="button" value="Add to Cart"></div>
+  <div id="upp"><img src="./assets/shop2.png"height="200"><p>Bird Food</p><p>$3.50</p><input id="btn" type="button" value="Add to Cart"></div>
+  <div id="upp"><img src="./assets/shop3.png"height="200"><p>Cat Poles</p><p>$30.00</p><input id="btn" type="button" value="Add to Cart"></div>
+  <div id="upp"><img src="./assets/shop4.png"height="200"><p>Reptile Heating</p><p>$68.00</p><input id="btn" type="button" value="Add to Cart"></div>
+  <div id="upp"><img src="./assets/shop5.png"height="200"><p>Dogs Collars</p><p>$9.00</p><input id="btn" type="button" value="Add to Cart"></div>
+</div>
+<div class="fcon">
+  <div id="upp"><img src="./assets/shop6.png"height="200"><p>Bird Houses</p><p>$45.00</p><input id="btn" type="button" value="Add to Cart"></div>
+  <div id="upp"><img src="./assets/shop7.png"height="200"><p>Fish & Aquatics</p><p>$33.00</p><input id="btn" type="button" value="Add to Cart"></div>
+  <div id="upp"><img src="./assets/shop8.png"height="200"><p>Fish Aquariums</p><p>$105.00</p><input id="btn" type="button" value="Add to Cart"></div>
+  <div id="upp"><img src="./assets/shop9.png"height="200"><p>Small Animal Cages</p><p>$145.00</p><input id="btn" type="button" value="Add to Cart"></div>
+  <div id="upp"><img src="./assets/shop10.png"height="200"><p>Dogs Beds</p><p>$65.00</p><input id="btn" type="button" value="Add to Cart"></div>
+</div>
+<center><input style="font-size: x-large;padding: 1%;background-color: tomato;border-radius: 20px;" type="submit" value="See More Products"></center>
+<br><hr>
+<section>
+  <div class="poo">
+      <p class="bild">ADDRESS</p><br>
+      <p>500 Terry Francine St. San Francisco, CA 94158</p>
+  </div>
+  <div class="poo">
+      <p class="bild">SHOP</p><br>
+      <p>DOGS</p>
+      <p>CATS</p>
+      <p>BIRDS</p>
+      <p>FISH & AQUATICS</p>
+      <p>SMALL ANIMALS</p>
+      <p>REPTILES</p>
+  </div>
+  <div class="oop">
+      <p class="bild">GET SPECIAL DEALS & OFFERS</p><br>
+      <input style="font-size: 20px;padding: 2%;" type="email" placeholder="Email">
+      <input style="font-size: 20px;padding: 2%;background-color: #000;color: #fff;" class="bild" type="submit" value="SUBMIT" class="submit-button">
+  </div>
+  <div class="poo">
+      <p style="margin-bottom: -6px;" class="bild">CONTACT US!</p><br>
+      <ul class="bild lin" style="list-style-type: none;">
+          <li style="font-size: 50px;" ><a href="https://www.instagram.com/chandu_spidey/"target="_self"><i class='bx bxl-instagram'></i></a></li>
+          <li style="font-size: 50px;" ><a href="https://www.facebook.com/lakshmi.srinivas.3304673/"target="_self"><i class='bx bxl-facebook'></i></a></li>
+          <li style="font-size: 50px;" ><a href="https://twitter.com/ChandanYad19171"target="_self"><i class='bx bxl-twitter'></i></a></li>
+      </ul>
+  </div>
+</section>
+
+<footer class="down">    
+  <a style="text-decoration: none;color: #000;"  href="#"> <p>&copy; 2035 Copyrights Reserved by CY</p> </a>
+</footer>
+</body>
+</html>
